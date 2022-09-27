@@ -152,7 +152,7 @@ Copy and paste the keys into these files
 
 
 ```python
-from Cryptodome.PublicKey import RSA, PKCS1_OAEP
+from Cryptodome.PublicKey import RSA
 from Cryptodome.Cipher import PKCS1_OAEP
 ```
 

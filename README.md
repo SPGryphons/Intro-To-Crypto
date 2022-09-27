@@ -127,7 +127,7 @@ def decrypt(ciphertext, aes_key, iv):
 
 ### Generating The Keys
 - Before we experiment on the RSA algorithm, we will need to generate two pairs of public and private keys for Alice and Bob respectively
-- You can search for online RSA Key generators online or you can click on this [link](https://www.devglan.com/online-tools/rsa-encryption-decryption) to visit one!
+- You can search for online RSA Key generators online or you can click on this [link](https://travistidwell.com/jsencrypt/demo/) to visit one!
 
 ### Storing the Keys
 On your Visual Studio Code workstation, store the two pairs of RSA keys into respective folders for Alice and Bob as shown in the tree directory below:

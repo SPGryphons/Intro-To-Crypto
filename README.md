@@ -177,7 +177,7 @@ bob_private_key = RSA.import_key(bob_private_key_bytes)
 ```python
 def encrypt(plaintext, public_key):
   cipher = PKCS1_OAEP.new(public_key)
-  ciphertext = cipher.encrypt(plaintext)
+  ciphertext = cipher.encrypt(plaintext.encode())
   return ciphertext
 ```
 
